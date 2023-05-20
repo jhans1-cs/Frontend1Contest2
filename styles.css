@@ -1,0 +1,158 @@
+body {
+    color : #f3f3f3;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    background-image: linear-gradient(
+        115deg,
+        rgba(58, 58, 158, 0.8),
+        rgba(136, 136, 206, 0.7)
+      ), url(https://images.unsplash.com/photo-1521587760476-6c12a4b040da?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bGlicmFyeXxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80);
+  }
+
+  a {
+    color:#f2f2f2;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgba(255, 255, 255, 0.8);
+  }
+  
+  a:hover {
+    color: #37af65;
+  }
+  
+  a:active {
+    color: #555;
+  }
+
+  header {
+    padding: 10px;
+  }
+
+ h1 {
+    font-size: 3rem;
+ }
+
+ .para {
+    text-align: center;
+    background-color: rgba(58, 58, 158, 0.8);
+    margin: 0;
+    padding: 0;
+ }
+
+  #home {
+    text-align: center;
+  }
+  nav.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    background-color: rgb(27, 27, 50);
+    color: #fff;
+    overflow: hidden;
+  }
+  
+  nav .left-nav {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  nav .right-nav {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  nav .left-nav a, nav .right-nav a {
+   margin-right: 15px;
+ }
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    max-width: max-content;
+    background-color: rgba(27, 27, 50, 0.8);
+    margin: 0 auto;
+  }
+  
+  table th,
+  table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+
+  form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+
+  form {
+    max-width: 30%;
+    background-color: rgba(27, 27, 50, 0.8);
+    padding: 2.5rem;
+    margin: 0 auto;
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form input[type="date"],
+  form input[type="number"],
+  form input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+  }
+  
+  form button[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #37af65;
+    border-color: white;
+    min-width: 300px;
+  }
+  
+  form button[type="submit"]:hover {
+    background-color: #555;
+  }
+
+  .note {
+    text-align: center;
+    background-color: rgba(58, 58, 158, 0.8);
+    margin: 0;
+    padding: 0;
+  }
